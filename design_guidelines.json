@@ -1,0 +1,140 @@
+{
+  "design_system": {
+    "identity": {
+      "name": "Molduflex - Architectural Finishes",
+      "persona": "E1: The Anti-AI Designer",
+      "tone": "Professional, Modern, High-End, Reliable",
+      "theme": "light"
+    },
+    "typography": {
+      "font_family": {
+        "headings": "Manrope, sans-serif",
+        "body": "Inter, sans-serif"
+      },
+      "scale": {
+        "h1": "text-5xl md:text-7xl font-bold tracking-tight",
+        "h2": "text-3xl md:text-5xl font-semibold tracking-tight",
+        "h3": "text-xl md:text-2xl font-medium",
+        "body": "text-base md:text-lg leading-relaxed text-gray-600"
+      }
+    },
+    "colors": {
+      "primary": "#F2811D",
+      "primary_foreground": "#FFFFFF",
+      "secondary": "#1A1A1A",
+      "background": "#FFFFFF",
+      "surface": "#F8F9FA",
+      "border": "#E5E7EB",
+      "text": {
+        "main": "#1A1A1A",
+        "muted": "#64748B"
+      }
+    },
+    "layout": {
+      "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+      "spacing": {
+        "section": "py-20 md:py-32",
+        "element": "gap-6 md:gap-12"
+      },
+      "grid": {
+        "bento": "grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6"
+      }
+    },
+    "motion": {
+      "library": "framer-motion",
+      "scroll": "lenis",
+      "animations": {
+        "fade_up": {
+          "initial": { "opacity": 0, "y": 20 },
+          "whileInView": { "opacity": 1, "y": 0 },
+          "viewport": { "once": true },
+          "transition": { "duration": 0.6, "ease": "easeOut" }
+        },
+        "pulse": "animate-pulse-ring"
+      }
+    }
+  },
+  "assets": {
+    "images": {
+      "hero": {
+        "url": "https://images.unsplash.com/photo-1761706885595-02fdd9fe91bb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODh8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBhcmNoaXRlY3R1cmFsJTIwZmFjYWRlJTIwc3Vuc2V0fGVufDB8fHx8MTc2OTgwMjA2MXww&ixlib=rb-4.1.0&q=85",
+        "alt": "Modern architectural facade reflecting sunset"
+      },
+      "products": {
+        "climatizacao": {
+          "url": "https://images.unsplash.com/photo-1762341123870-d706f257a12e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODl8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3YWxsJTIwbW91bnRlZCUyMGFpciUyMGNvbmRpdGlvbmVyJTIwaW50ZXJpb3J8ZW58MHx8fHwxNzY5ODAyMDUxfDA&ixlib=rb-4.1.0&q=85",
+          "title": "Climatização"
+        },
+        "cozinha": {
+          "url": "https://images.unsplash.com/photo-1639173925921-5d5fd027713c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTF8MHwxfHNlYXJjaHw0fHxtb2Rlcm4lMjBsdXh1cnklMjBob21lJTIwaW50ZXJpb3IlMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzY5ODAyMDM0fDA&ixlib=rb-4.1.0&q=85",
+          "title": "Cozinha"
+        },
+        "revestimento": {
+          "url": "https://images.unsplash.com/photo-1627977027810-9c62069d3636?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTV8MHwxfHNlYXJjaHwzfHxjb25zdHJ1Y3Rpb24lMjBtYXRlcmlhbHMlMjBmaW5pc2hlcyUyMHRleHR1cmVzJTIwc3RvbmUlMjB3b29kJTIwcGFpbnR8ZW58MHx8fHwxNzY5ODAyMDM2fDA&ixlib=rb-4.1.0&q=85",
+          "title": "Revestimento"
+        },
+        "banheiro": {
+          "url": "https://images.unsplash.com/photo-1628746234542-53ab3a56b497?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTF8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBsdXh1cnklMjBob21lJTIwaW50ZXJpb3IlMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzY5ODAyMDM0fDA&ixlib=rb-4.1.0&q=85",
+          "title": "Banheiro"
+        },
+        "tintas": {
+          "url": "https://images.unsplash.com/photo-1525909002-1b05e0c869d8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1Mjh8MHwxfHNlYXJjaHw0fHxob3VzZSUyMHBhaW50aW5nJTIwaW50ZXJpb3IlMjBjb2xvcmZ1bCUyMHdhbGx8ZW58MHx8fHwxNzY5ODAyMDUzfDA&ixlib=rb-4.1.0&q=85",
+          "title": "Tintas"
+        },
+        "pedras": {
+          "url": "https://images.unsplash.com/photo-1630756377422-7cfae60dd550?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBtYXJibGUlMjBzdG9uZSUyMHNsYWIlMjB0ZXh0dXJlfGVufDB8fHx8MTc2OTgwMjA1N3ww&ixlib=rb-4.1.0&q=85",
+          "title": "Pedras e Rochas"
+        }
+      }
+    }
+  },
+  "components": {
+    "Hero": {
+      "type": "Custom",
+      "description": "Split layout. Left: Bold Headline + Pulse CTA. Right: Full height image with subtle parallax.",
+      "instructions": "Use 'Manrope' for the headline. The CTA button must have a 'ring' animation to simulate a pulse."
+    },
+    "Products": {
+      "type": "Bento Grid",
+      "description": "A grid of cards. Some span 2 columns. Hover effects: Zoom image + Reveal text.",
+      "instructions": "Use CSS Grid. Make 'Revestimento' and 'Pedras' span 2 columns to break the monotony."
+    },
+    "Gallery": {
+      "type": "Lightbox",
+      "description": "Masonry layout of project images. Click to open in a Dialog (Shadcn).",
+      "instructions": "Use 'react-photo-album' or custom masonry. Use Shadcn Dialog for the lightbox view."
+    },
+    "FloatingWhatsApp": {
+      "type": "Fixed",
+      "description": "Fixed bottom-right button. Green brand color (#25D366).",
+      "instructions": "Always visible. Z-index 50. Add a tooltip 'Fale Conosco'."
+    }
+  },
+  "seo": {
+    "title": "Molduflex | Materiais de Construção e Acabamentos de Alto Padrão",
+    "description": "Encontre os melhores materiais de acabamento, climatização, tintas e revestimentos na Molduflex. Qualidade e sofisticação para sua obra.",
+    "keywords": "molduflex, acabamentos, construção, revestimentos, tintas, climatização, arquitetura",
+    "json_ld": {
+      "@context": "https://schema.org",
+      "@type": "HomeGoodsStore",
+      "name": "Molduflex",
+      "image": "https://images.unsplash.com/photo-1761706885595-02fdd9fe91bb",
+      "telephone": "11 9 22903862",
+      "email": "contato@molduflex.com.br",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BR"
+      },
+      "priceRange": "$$"
+    }
+  },
+  "instructions_to_main_agent": [
+    "1. INSTALL DEPENDENCIES: npm install framer-motion lucide-react clsx tailwind-merge @radix-ui/react-dialog @radix-ui/react-slot class-variance-authority",
+    "2. CONFIGURE TAILWIND: Update 'tailwind.config.js' to include the primary color #F2811D and the 'Manrope' font family.",
+    "3. CREATE COMPONENTS: Build the sections as separate components in 'src/components'.",
+    "4. IMPLEMENT SEO: Add the JSON-LD script to the 'public/index.html' head or use a Helmet component.",
+    "5. ANIMATIONS: Apply 'framer-motion' to all sections. Use 'whileInView' for scroll triggering.",
+    "6. DATA-TESTID: Add 'data-testid' to all buttons and links (e.g., 'hero-cta-button', 'whatsapp-float-button').",
+    "7. DO NOT use generic gradients. Use white space and bold typography."
+  ]
+}
