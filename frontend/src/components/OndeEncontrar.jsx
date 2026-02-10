@@ -8,6 +8,11 @@ const parceiros = [
     url: "https://www.amoedo.com.br/",
   },
   {
+    name: "Obramax",
+    logo: "https://linhaplana.com/molduflex/img/dalla.59812c0e.svg",
+    url: "https://www.obramax.com.br/",
+  }
+  {
     name: "Casa & Construção",
     logo: "https://linhaplana.com/molduflex/img/casa&construcao.781f2310.png",
     url: "https://www.casaeconstrucao.com.br/",
