@@ -7,7 +7,7 @@ const produtos = [
   {
     id: "climatizacao",
     title: "Climatização e Refrigeração",
-    description: "Soluções completas para conforto térmico e instalação em ambientes residenciais e comerciais.",
+    description: "Soluções completas para instalação e conforto térmico em ambientes residenciais e comerciais.",
     image: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&q=80",
     span: "md:col-span-2",
   },
