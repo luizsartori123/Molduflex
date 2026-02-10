@@ -7,14 +7,14 @@ const produtos = [
   {
     id: "climatizacao",
     title: "Climatização e Refrigeração",
-    description: "Soluções completas para conforto térmico em ambientes residenciais e comerciais.",
+    description: "Soluções completas para conforto térmico e instalação em ambientes residenciais e comerciais.",
     image: "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600&q=80",
     span: "md:col-span-2",
   },
   {
     id: "cozinha",
     title: "Cozinha",
-    description: "Acabamentos e materiais para cozinhas modernas e funcionais.",
+    description: "Acabamentos, cubas e materiais para cozinhas modernas e funcionais.",
     image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80",
     span: "",
   },
@@ -28,7 +28,7 @@ const produtos = [
   {
     id: "banheiro",
     title: "Banheiro",
-    description: "Louças, metais e acabamentos premium para banheiros sofisticados.",
+    description: "Ralos em inox, pias e gabinetes que garantem acabamento premium para banheiros sofisticados.",
     image: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=80",
     span: "",
   },
