@@ -9,7 +9,7 @@ const parceiros = [
   },
   {
     name: "Obramax",
-    logo: "https://linhaplana.com/molduflex/img/dalla.59812c0e.svg",
+    logo: "https://1.bp.blogspot.com/-X3pItYwdPxM/YGKSGVgEvRI/AAAAAAAAYhw/Sd3EI6F288s-ai6pndivLpn4Zcjf6TopQCLcBGAsYHQ/s507/logoobramax.png",
     url: "https://www.obramax.com.br/",
   }
   {
