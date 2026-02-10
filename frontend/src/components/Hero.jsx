@@ -62,7 +62,7 @@ export const Hero = () => {
             
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed mb-10 max-w-xl">
               Somos fábrica e distribuidora de soluções inteligentes para 
-              construção civil. Da produção à entrega, garantimos qualidade 
+              o seu projeto. Da produção à entrega, garantimos qualidade 
               e inovação em cada produto.
             </p>
 
