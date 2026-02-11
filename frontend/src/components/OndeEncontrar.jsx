@@ -11,7 +11,7 @@ const parceiros = [
     name: "Obramax",
     logo: "https://1.bp.blogspot.com/-X3pItYwdPxM/YGKSGVgEvRI/AAAAAAAAYhw/Sd3EI6F288s-ai6pndivLpn4Zcjf6TopQCLcBGAsYHQ/s507/logoobramax.png",
     url: "https://www.obramax.com.br/",
-  }
+  },
   {
     name: "Casa & Construção",
     logo: "https://linhaplana.com/molduflex/img/casa&construcao.781f2310.png",
